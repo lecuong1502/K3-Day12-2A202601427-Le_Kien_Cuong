@@ -48,7 +48,7 @@ class ConversationStore:
         try:
             self.client.ping()
             return True
-        except Exception:
+        except Exception as e:
             print(f"REDIS PING FAILED: {type(e).__name__}: {e}", flush=True)
             return False
 
