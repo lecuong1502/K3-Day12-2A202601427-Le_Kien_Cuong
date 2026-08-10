@@ -18,7 +18,7 @@
 
 | Mục | Nội dung |
 |-----|----------|
-| Public URL | https://TODO-thay-bang-url-that.up.railway.app |
+| Public URL | https://day12-agent-production-dcf1.up.railway.app |
 | Platform | Railway / Render / Cloud Run — (điền platform bạn dùng) |
 | Ngày deploy | (điền ngày) |
 
