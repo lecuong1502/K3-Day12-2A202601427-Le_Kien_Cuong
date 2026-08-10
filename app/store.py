@@ -49,6 +49,7 @@ class ConversationStore:
             self.client.ping()
             return True
         except Exception:
+            print(f"REDIS PING FAILED: {type(e).__name__}: {e}", flush=True)
             return False
 
     def append(self, user_id: str, role: str, content: str) -> None:
